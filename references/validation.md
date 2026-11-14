@@ -16,6 +16,6 @@
 
 1. Capture or inspect the initial state. Note artifact, route, date, viewport, state, source and limits. Avoid retaining private material in a public report.
 2. For each major issue record location, observation, user consequence and correction. Distinguish observed evidence from interpretation and proposed changes.
-3. If fixing, implement the agreed scope. Render again, inspect the changed state and its neighbors, and compare like with like. Recheck affected interactions and responsive states after changes. Iterate on material issues.
+3. If fixing, implement the agreed scope. Render again, inspect the changed state and its neighbors, and compare like with like. For each original issue, record the change and supporting evidence, an unresolved defect, or why it remains unverified. Recheck affected interactions and responsive states after changes. Iterate on material issues.
 4. For each applicable dimension, record **pass**, **needs work**, or **unverified**, with a short observation: purpose and content; hierarchy and precision; behavior and recovery; continuity; accessibility; responsive layout; and evidence. A pass is scoped to what was actually checked. Do not turn untested dimensions into passes or average them into an overall score.
 5. Report the remaining issues and test limits. Do not claim an independent review unless one occurred. Avoid prescribing deployment or new external actions unless requested and authorized.

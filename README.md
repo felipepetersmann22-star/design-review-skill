@@ -6,7 +6,13 @@ The method is grounded in a Design Language Atlas: start with the user's actual 
 
 ## Use
 
-Install the repository as a skill according to your agent's skill installation method. The repository root contains `SKILL.md` and its `references/` directory; keep them together. In Codex, for example, copy or clone the repository to `~/.codex/skills/design-review`, then restart or refresh skill discovery if needed. Review the files before installing any third-party skill.
+Install with a compatible agent-skills tool:
+
+```sh
+npx skills add felipepetersmann22-star/design-review-skill
+```
+
+Or copy or clone the repository to your agent's skill directory, such as `~/.codex/skills/design-review` for Codex. Keep `SKILL.md` and `references/` together, then refresh skill discovery if needed. Review instructions before installing any third-party skill.
 
 Example requests:
 
@@ -19,6 +25,8 @@ Example requests:
 The skill identifies the user's task and product context, reviews concrete evidence through several lenses, prioritizes actionable findings, and rechecks changes when implementation is in scope. It records what was observed, what remains an interpretation or proposal, and what was not tested. Distinctive design is encouraged; no particular visual style is automatically forbidden.
 
 It cannot turn a screenshot into proof of behavior, a simulated device into a physical-device test, or an automated scan into a complete accessibility audit. Review quality depends on access to representative content, states, interaction tools and product context.
+
+For example, given a narrow screenshot with an action clipped at the edge, the skill can describe the visible clipping and suggest a reflow. It must leave keyboard operation and saving unverified until it can exercise them. This is an illustrative scenario, not a benchmark result.
 
 ## Files
 
